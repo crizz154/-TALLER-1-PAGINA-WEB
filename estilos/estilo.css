@@ -1,0 +1,29 @@
+.navbar-brand > img{ 
+    width: 150px; 
+    border-radius: 90px; 
+} 
+.informaciones{ 
+    display: flex; 
+    margin: 60px; 
+     
+    
+} 
+.card-body{
+    margin:  20px;
+} 
+@media (max-width: 1000px) {
+    .informaciones{ 
+        flex-direction: column;  
+        align-items: center;
+    } 
+} 
+
+.video-botom{ 
+    margin: 30px;
+} 
+.informacionnes2{ 
+    margin: 90px; 
+}
+body{ 
+  background-color: rgb(224, 202, 170);
+}
