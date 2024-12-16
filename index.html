@@ -31,8 +31,8 @@
                   Aporta aqui 
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Denuncia</a></li>
-                  <li><a class="dropdown-item" href="#">Reporta sospechas</a></li>
+                  <li><a class="dropdown-item" href="https://www.animalesbog.gov.co/galeria/escuadr%C3%B3n-anticrueldad" target="_blank">Denuncia</a></li>
+                  <li><a class="dropdown-item" href="https://youtu.be/28FtTF9Z_7s" target="_blank">tips para cuidados</a></li>
                   <li><a class="dropdown-item" href="#">Sube un video a mas sobre gatitos</a></li>
                 </ul>
               </li>
@@ -55,7 +55,7 @@
         <br> 
       
        </div> 
-        <div class="card" style="width: 18rem;">
+        <div class="card" >
          <img src="./imagenes/gatobebe.webp" class="card-img-top" alt="">
           <div class="card-body">
            <p class="card-text">Siempre puede haber un gatito que necesite de tu ayuda, nunca dudes en aportar ayuda a un animal.</p>
@@ -74,12 +74,12 @@
 
       <div class="informacionnes2"> 
         <div class="cardA">
-           <iframe  width="1070" height="400" src="https://www.youtube.com/embed/w81Yj4uWir0" title="Gato bailando (plantilla)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video-top" alt="" ></iframe> 
+           <video controls width="1070" height="400" src="./imagenes/invideo-ai-1080 ¡Descubre CatMeows! Cuida y adopta masco 2024-12-16.mp4"   type="video/mp4" class="video-top" alt="" ></video> 
           <div class="card-body">
             <h5 class="card-title">valora nuestros amigos peludos</h5> 
             <br>
             <p class="card-text">Protege a los Gatos. Un golpe a un gato, es un golpe a la humanidad. <br> Nuestro objetivo es sensibilizar sobre el maltrato animal y promover la protección y el respeto hacia los gatos. Lamentablemente, 70% de los gatos rescatados tienen signos de maltrato, 50% de los gatos callejeros mueren antes de los 2 años debido a la falta de cuidado y 1 de cada 5 gatos es víctima de abuso físico o emocional. <br> El maltrato causa daño físico y emocional irreversible, miedo y estrés crónico, y problemas de comportamiento y salud. .</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <p class="card-text"><small class="text-body-secondary">cats</small></p>
           </div>
         </div> 
         <br> <br>
@@ -87,7 +87,7 @@
           <div class="card-body">
             <h5 class="card-title">Ayuda al mundo animal</h5>
             <p class="card-text">Si detectas señales de maltrato como lesiones visibles, cambios en el comportamiento, pérdida de peso o apetito, o ojos vacíos o sin brillo, denuncia el maltrato animal. <br> Puedes ayudar adoptando, no comprando, educando a otros sobre el respeto animal y apoyando organizaciones de rescate. <br> Recuerda, cada acción cuenta, cada voz es importante. Protégelos, ámalos, respetalos. Un mundo sin maltrato animal es posible, comienza con tú. #ProtegeALosGatos #MaltratoCero #AmorPorLosAnimales #RespetoAnimal.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <p class="card-text"><small class="text-body-secondary">gatos</small></p>
           </div>
           <img src="/imagenes/images34.jpg" class="card-img-bottom" alt="..."> 
         </div> 
@@ -101,12 +101,41 @@
 
       </div> 
       
+      
 
 
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+   
+    <footer> @losAnimalesSonVida</footer> 
+
+
+  
+    <script>
+        // Display Message Function 
+        var message = 'hola¡ bienvenidos a CtsMeos'
+        function showMessage(message) {
+            prompt(message);
+        }
+
+        // Example of adding dynamic cards
+        function addCard(title, text) {
+            const card = document.createElement('div');
+            card.className = 'informacionnes2';
+            card.style.width = '18rem';
+            card.innerHTML = `
+                <div class="card-body">
+                    <h5 class="card-title">${title}</h5>
+                    <p class="card-text">${text}</p>
+                </div>
+            `;
+            document.querySelector('.informaciones').appendChild(card);
+        }
+
+      
+    </script> 
  </body>
  </html>
